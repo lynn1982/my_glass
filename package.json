@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com/)",
+  "name": "todo",
+  "description": "Very simple todo, demo for connect web dev.",
+  "version": "0.3.0",
+  "homepage": "http://github.com/bearcatnode/todo",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bearcatnode/todo.git"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "connect": "1.x",
+    "connect-render": ">=0.1.4",
+    "urlrouter": ">=0.2.0",
+    "bearcat": "0.4.x",
+    "bearcat-dao": "0.2.x"
+  },
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">= 0.6"
+  }
+}
